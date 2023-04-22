@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(12, 0, 10);
+    background-image: url(../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+}
+
+.logolol {
+    text-align: center;
+}
+
+h1{
+    font-family: frizquadrata;
+    color: antiquewhite;
+    text-align: center;
+    height: 100px;
+}
+
+.champions {
+    display: grid;
+    grid: auto / auto auto auto auto auto;
+    justify-content: center;
+
+}
+
+.ec {
+    border-radius: 8px;
+    margin: 5px;
+    transition: transform .2s;
+    transform: scale(1);
+    cursor: pointer;
+    height: 282px;
+    width: 250px;
+    
+}
+
+.ec:hover, .ec:focus{
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+
+
+

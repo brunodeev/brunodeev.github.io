@@ -1,0 +1,27 @@
+* {
+    font-family: Poppins;
+    color: #e7eeee;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    background-image: url("../images/bg_mine.webp");
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 0px 80px 25px 80px;
+}
+
+img {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.logo_minecraft {
+    width: 35%;
+}

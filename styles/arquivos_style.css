@@ -1,0 +1,36 @@
+* {
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/bg_index.png");
+}
+
+.content {
+    padding: 20px 0px 0px 50px;
+}
+
+.cabecalho {
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #021c1d;
+    background-image: url("../images/header_index_bg.jpg");
+    height: 2.2em;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navigation_header {
+    display: flex;
+    gap: 1.5em;
+}
+
+.navigation_header a {
+    text-decoration: none;
+    color: azure;
+    transition: 1s;
+    font-weight: bold;
+}
